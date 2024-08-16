@@ -1,0 +1,10 @@
+1 line: Mode (0 for encryption, 1 for decryption)
+2 line: Key (128bit)
+3 line: IV (96bit)
+4 line: Plaintext (if enc), Ciphertext (if dec) (8*n bit)
+5 line: Additional (8*m bit)
+6 line: Tag (if dec)
+
+Output: 
+1 line: Ciphertext(if enc), Plaintext(if dec) (8*n bit)
+2 line: Tag (if enc), tag_valid(if dec)

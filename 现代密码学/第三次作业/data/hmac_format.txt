@@ -1,0 +1,7 @@
+Input
+1 line: Key
+2 line: message
+
+output:
+Tag ()
+speed (if message + key is large)
